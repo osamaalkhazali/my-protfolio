@@ -1,0 +1,140 @@
+.contact {
+  background: #333;
+  padding: 3rem 2rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+.contact-info h2 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #ffb199;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.contact-info p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+.contact-info a {
+  color: #ffb199;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+  color: #ff9900;
+}
+
+.contact-form {
+  background: #333;
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+  color: #ffb199;
+  font-weight: bold;
+}
+
+.form-group input, .form-group textarea {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #555;
+  border-radius: 0.5rem;
+  width: 100%;
+  background: #222;
+  color: #fff;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input:focus, .form-group textarea:focus {
+  border-color: #ffb199;
+  box-shadow: 0 0 5px rgba(255, 177, 153, 0.5);
+}
+
+.contact-form button {
+  background: linear-gradient(135deg, #ffb199, #ff9900);
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: linear-gradient(135deg, #ff9900, #ff6a00);
+  transform: translateY(-2px);
+}
+
+
+@media (max-width: 768px) {
+  .contact {
+      flex-direction: column;
+      padding: 2rem 1rem;
+  }
+
+  .contact-info h2 {
+      font-size: 2.2rem;
+  }
+
+  .contact-form {
+      max-width: 100%;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+
+  .contact h2 {
+    font-size: 2rem;
+  }
+
+  .contact p {
+    font-size: 1rem;
+  }
+  
+
+
+}
+
+@media (max-width: 480px) {
+  
+  .contact h2 {
+    font-size: 1.8rem;
+  }
+
+  .contact p {
+    font-size: 0.9rem;
+  }
+
+
+}
