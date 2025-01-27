@@ -1,5 +1,21 @@
 :root{
-  --main-color: #588D11;
-  --secondary-color: #434342;
-  --text-color: #333;
+  --main-color: #b96029;
+  --secondary-color: #ba4700;
+  --text-color: white;
+  --bg-gray   : #0f0f0f;
+  --bg-black  : black;
+  --bg-333    : #333;
+}
+
+
+.bg-gray {
+  background-color: #0f0f0f;
+}
+
+.bg-black {
+  background-color: black ;
+}
+
+.bg-333 {
+  background-color: #333;
 }

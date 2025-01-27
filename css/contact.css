@@ -16,7 +16,7 @@
   font-size: 2.8rem;
   font-weight: bold;
   margin-bottom: 1.5rem;
-  color: #ffb199;
+  color: var(--main-color);
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -24,22 +24,22 @@
   font-size: 1.1rem;
   margin-bottom: 1rem;
   line-height: 1.6;
-  color: #ccc;
+  color: var(--text-color);
 }
 
 .contact-info a {
-  color: #ffb199;
+  color: var(--main-color);
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 .contact-info a:hover {
-  color: #ff9900;
+  color: var(--secondary-color);
 }
 
 .contact-form {
-  background: #333;
+  background: var(--bg-333);
   padding: 2rem;
   border-radius: 1rem;
   width: 100%;
@@ -57,7 +57,7 @@
 .form-group label {
   font-size: 1.1rem;
   margin-bottom: 0.75rem;
-  color: #ffb199;
+  color: var(--main-color);
   font-weight: bold;
 }
 
@@ -67,19 +67,17 @@
   border: 1px solid #555;
   border-radius: 0.5rem;
   width: 100%;
-  background: #222;
-  color: #fff;
-  outline: none;
+  background: var(--bg-gray);
+  color: var(--text-color);
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .form-group input:focus, .form-group textarea:focus {
-  border-color: #ffb199;
-  box-shadow: 0 0 5px rgba(255, 177, 153, 0.5);
+  border-color: var(--main-color);
 }
 
 .contact-form button {
-  background:  #b96029;
+  background:  var(--main-color);
   color: #fff;
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
@@ -90,8 +88,8 @@
 }
 
 .contact-form button:hover {
-  background: #b96029;
-  transform: translateY(-2px);
+  background: var(--secondary-color);
+  transform: scale(1.1);
 }
 
 
