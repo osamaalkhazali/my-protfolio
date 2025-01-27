@@ -4,12 +4,13 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1rem;
-  padding: 2rem;
+  padding: 6rem 2rem;
   background-color: black;
   width: 100%; 
   color: white;
   margin: auto;
   box-sizing: border-box;
+  
 }
 
 .skills-item {

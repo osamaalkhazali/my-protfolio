@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  cursor: url('../images/cursor1.png'), auto;
+  cursor: url('../images/cursor-small1.png'), auto;
 }
 
 body {
@@ -14,6 +14,7 @@ body {
   font-family: "Poiret One", serif;
   font-weight: 400;
   font-style: normal;
+  background-color: #000;
 }
 
 
@@ -56,3 +57,57 @@ p {
 }
 
 
+
+.container {
+  max-width: 1440px; 
+  width: 90%; 
+  margin: 0 auto; 
+  background-color: transparent;
+  position: relative;
+}
+
+@media (min-width: 1441px) {
+  .container {
+    max-width: 1600px; 
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1000px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 800px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 600px;
+
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+
+.bg-gray {
+  background-color: #0f0f0f;
+}
+
+
+.bg-black {
+  background-color: black ;
+}
+
+
+.bg-333 {
+  background-color: #333;
+}
